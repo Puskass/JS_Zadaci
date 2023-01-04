@@ -1,0 +1,35 @@
+Otvorim GitBash desni klik na desktop Use Here
+
+1. Napraviti folder 
+$ mkdir imeFolder
+
+2. Lociraj se u taj folder 
+$ cd imeFolder
+
+3. Izadi iz folder 
+$ cd ..
+
+4. Napravi fileove u folderu
+$ touch index.html app.js style.css objasnjenje.txt
+
+5. Otovri taj folder u VSCodu
+$ code .
+
+6. Inicijalizirija Git tj. da moze pratiti promjene
+$ git init
+
+7. Spasi promjenu sto si uradio
+$ git add .
+
+8. Dodaj poruku sta si to uradio 
+$ git commit -m 'initial commit'
+
+9. Spasi svoj projekat na GitHub i kopiraj URL 
+$ git remote add origin  https://github.com/Puskass/JS_Zadaci.git
+
+10. Dodatno potvrdi da si to ti kako bi mogao pushati naredne promjene
+$ git config --global user.name "Puskass"
+$ git config --global user.email "cosovictarik711@gmail.com"
+
+11. Napravi token; kopiraj ga i prijavi se sa njim
+$ git push origin master
