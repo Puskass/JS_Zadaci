@@ -1,0 +1,29 @@
+1. Zadatak 
+Napisati funkciju addTwoNumbers koji uzima dva broja kao parametre
+i returna njihov zbir.
+
+2. Zadatak
+Napraviti dugme na stranici koje mijenja dark/bright theme.
+
+3. Zadatak
+Napisati funkciju filterBlueObjects koji kao parametar uzima array 
+objekata i filtrira sve koji imaju property color:blue
+npr.
+
+const predmeti = [
+    {name: "Lopta", color:"red"},
+    {name: "Stol", color:"blue"},
+    {name: "Dasla", color:"blue"},
+    {name: "Pernica", color:"white"},
+]
+
+filterBlueObject
+
+[
+    {name: "Stol", color:"blue"},
+    {name: "Dasla", color:"blue"},
+]
+
+4. Zadatak
+Napisati funkciju findSmallest koji kao parametar uzima array brojeva
+i returna najmanji broj
