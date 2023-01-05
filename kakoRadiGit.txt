@@ -31,5 +31,9 @@ $ git remote add origin  https://github.com/Puskass/JS_Zadaci.git
 $ git config --global user.name "Puskass"
 $ git config --global user.email "cosovictarik711@gmail.com"
 
-11. Napravi token; kopiraj ga i prijavi se sa njim
+11. Napravi token; kopiraj ga i prijavi se sa njim; 
+zatim promjene koje si uradio stavi na GitHub
 $ git push origin master
+
+12. Da se vratis na zadnji chekpoint sto si uradio na nekom fajlu
+$ git restore imeFila.js
