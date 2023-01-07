@@ -25,3 +25,18 @@ function filterBlueObjects(objects){
   
   const blueObjects = filterBlueObjects(objects)
   console.log(blueObjects)
+
+// 4. Zadatak
+const numbers = [12, 3, 4, 10]
+
+function findSmallest(numbers){
+  return numbers.reduce((acc, current) => {
+    if (current < acc){
+      return current
+    }
+    return acc
+  }, numbers[0])
+}
+
+const smallest = findSmallest(numbers)
+console.log(smallest)
